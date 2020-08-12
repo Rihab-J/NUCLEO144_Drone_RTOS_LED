@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "$@"
+exec gdb-multiarch /home/rihab/Rust_projects/blink_LED/target/thumbv7em-none-eabihf/release/blink_LED "$@"
